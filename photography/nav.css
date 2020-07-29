@@ -1,0 +1,131 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Century Gothic
+}
+nav{
+	
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+	color: white;
+}
+
+ul {
+	list-style-type: none;
+	margin-top: 25px;
+	display: inline-block;
+	background-color:rgba(0, 0, 0, 0.623);
+	
+}
+
+ul li a{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.5s ease;
+	
+}
+
+#landing-text {
+	padding-top: 100px;
+	display: flex;
+	flex: 0 1 40vw;
+	height: 80vh;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 100px;
+  }
+  
+#landing-text h2 {
+	color: rgb(134, 13, 13);
+  }
+  
+.button {
+	
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+  }
+.button5 {
+	background-color: white;
+	color: black;
+	border: 2px solid #555555;
+  }
+  
+.button5:hover {
+	text-decoration: none;
+	background-color: #555555;
+	color: white;
+  }
+  /*
+footer{
+	max-width: 1200px;
+	background-color: black;
+	margin-bottom:0px;
+	color: white;
+}*/
+#image{
+	margin-top: 15px;
+
+}
+.responsive {
+	/*max-width: 100%;*/
+	height: auto;
+	overflow: hidden;
+	max-width: 100%;
+}
+.inner{
+	
+	background: #333333;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	margin:0;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: center;
+	font-family: sans-serif;
+	width: 50%;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #fff;
+	font-size: 18px;
+}
+.contact-title{
+	padding-top: 10px;
+	color: #fff;
+	
+	transition: all 4s ease-in-out;
+}
+/*
+.contact-title h1{
+	font-size: 32px;
+	line-height: 10px;
+}
+.contact-title h2{
+	font-size: 16px;
+}
+*/
+
+form{
+	transition: al 4s ease-in-out;
+}
+
+.form-control{
+	width: 50%;
+	background: transparent;border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #fff;
+	font-size: 18px;
+}
